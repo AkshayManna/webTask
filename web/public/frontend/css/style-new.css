@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body { font-family: 'Open Sans'; }
+.login-box { text-align:left; max-width:420px; margin:0 auto; }
+.login-box label { width:100%; }
+.login-box h2 { font-size:32px; color:#000; font-weight:600; margin:0 0 30px; }
+.login-box h3 { font-size:16px; color:#272727; }
+.login-box .redlink { font-size:16px; color:#d90504; font-weight:600!important; }
+.login-box .redlink:hover { font-size:16px; color:#272727; }
+.login-box p { font-size:16px; color:#272727; font-weight:normal; margin-bottom:20px; }
+.login-box p.create-account { font-weight:bold; }
+.login-box .blacklink { font-size:16px; color:#272727; font-weight:bold!important; }
+.login-box .blacklink:hover { font-size:16px; color:#d90504; }
+.login-box input[type=text], .login-box input[type=password] { color:#000; font-size:16px!important; font-family: 'Open Sans'; font-weight:600; background:#fff; margin-bottom:20px; border:none; border-bottom:1px solid #c5c5c5; }
+.login-box input[type=submit] { background:#d90504; border-radius:30px; padding:10px 50px; color:#fff; font-size:16px; text-transform:capitalize; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); margin:15px 0; }
+.uabb-info-list-content-wrapper.uabb-info-list-left .uabb-info-list-icon  { margin-right:15px; }
+h2.fl-heading { font-size:32px; font-weight:700; }
+.banner-top { background:url('../images/academy-banner.jpg') no-repeat center center; background-size:cover; }
+.banner-top h2 { margin-top: 0; margin-bottom: 0; text-align: center; font-weight: bold; color: #fff; padding-top: 7rem; padding-bottom: 7rem; font-size: 3.5rem; }
+#login .widget { margin:0 0; }
+#menu-main-menu a { font-size:14px!important; }
+.page-content { padding-top:70px; padding-bottom:40px; }
+.video-cont video {
+    border-radius: 10px;
+    /*box-shadow: 8px 8px #cccccc;
+    height: 280px;*/
+	width:95%;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #000;
+  font-family: 'Open Sans'; font-weight:600;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #000;
+  font-family: 'Open Sans'; font-weight:600;
+}
+
+::placeholder {
+  color: #000;
+  font-family: 'Open Sans'; font-weight:600;
+}
+.rpbdy ul{list-style: none; margin: 0; padding: 0;}
+.rpbdy ul li{
+    width: 140px; 
+    height:130px; background: #9d9d9d; text-align: center; 
+   padding: 0 20px;
+    margin: 0 0 20px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+.rpbdy ul li a{font-size: 16px; color: #fff;}
+.rpbdy ul li a:hover{text-decoration: none;}
+.rpbdy ul li.active{background: #d90504;}
+.cicon{
+    line-height: 24px !important;
+}
+.cicon img{
+    /* width: 100%; */
+    display: block;
+    text-align: center;
+    margin: 0 auto 5px;
+    width: 38px;
+}
+.ftabd{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height:130px;
+}
+.headingtab h2{float: left; margin: 0; color: #d90504; font-weight: 600; font-size: 32px;}
+.headingtab h2::after{content: ""; display: block; background: #d90504; width: 100px; height: 2px; margin:15px 0 0 0;}
+.htright{float: right;}
+.birthfld{
+    padding: 10px 10px;
+    font-size: 16px !important;
+    color: #000;
+    background: #fff;
+    border: thin solid #333;
+}
+.ctabbox{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.24);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.ctabboxtext{text-align: center;}
+.ctabboxtext h3{color: #d90504; font-weight: 700; margin-bottom: 15px; font-size: 22px;}
+.headingtab{
+    width: 100%;
+    float: left;
+    margin: 0 0 40px;
+}
+.rsDefault .rsTmb h5{
+    letter-spacing: inherit;
+    text-transform: inherit;
+}
+.rsVideoContainer{position: inherit;}
