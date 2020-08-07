@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Session;
-
+use Redirect;
 use Illuminate\Http\Request;
-use Mail;
+
 use App\Employee;
 use Hash;
 use Illuminate\Support\Facades\Validator;
@@ -60,7 +60,7 @@ public function index()
            $user->address=$request->address;
            $user->country=$request->country;
            $user->city=$request->city;
-           $user->type=$request->type;
+           $user->type='user';
 
            $user->password=Hash::make($request->password);
            
@@ -74,7 +74,7 @@ public function index()
            
 
 
-return view('login',compact('msg'));
+return Redirect::route('inquery.index');
   
 }      
         

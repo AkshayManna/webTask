@@ -67,6 +67,7 @@ class RegisterController extends Controller
         return Employee::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'type' => $data['type'],
             'password' => Hash::make($data['password']),
         ]);
     }
